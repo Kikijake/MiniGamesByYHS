@@ -58,6 +58,10 @@ export default function TicTacToe() {
     if (lineEl) {
       lineEl.style.transition = 'none';
       lineEl.style.strokeDashoffset = '0';
+      lineEl.setAttribute('x1', '0');
+      lineEl.setAttribute('y1', '0');
+      lineEl.setAttribute('x2', '0');
+      lineEl.setAttribute('y2', '0');
     }
   }, []);
 
