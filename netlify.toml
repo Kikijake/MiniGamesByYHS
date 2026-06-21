@@ -1,6 +1,7 @@
 [build]
-  command = "cd mini-game-website && npm run build"
-  publish = "mini-game-website/dist"
+  base = "mini-game-website"
+  command = "npm run build"
+  publish = "dist"
 
 [[redirects]]
   from = "/*"
